@@ -1,0 +1,116 @@
+{
+    "key": "antura-sample-module",
+    "name": {
+        "en-US": "Sample module",
+        "sv-SE": "Exempelmodul"
+    },
+    "description": {
+        "en-US": "Sample module to demonstrate how to build modules",
+        "sv-SE": "Exempelmodul för att visa hur man bygger moduler"
+    },
+    "vendor": "Antura AB",
+    "accessKeyTtl": 3600,
+    "capabilities": {
+        "projectReports": [
+            {
+                "relativeReportUrl": "report/configuration?moduleKey={token}&projectId={projectId}&culture={culture}&mimeType={mimeType}",
+                "formats": [
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                ],
+                "configurationDialog": {
+                    "height": 300,
+                    "width": 300
+                },
+                "key": "dummy-project-report",
+                "name": {
+                    "en-US": "Dummy project report",
+                    "sv-SE": "Dummy-projektrapport"
+                },
+                "description": {
+                    "en-US": "A dummy project report for educational purposes",
+                    "sv-SE": "En dummy-projektrapport i utbildningssyfte"
+                }
+            }
+        ],
+        "portfolioReports": [
+            {
+                "relativeReportUrl": "report/configuration?moduleKey={token}&culture={culture}&mimeType={mimeType}",
+                "formats": [
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                ],
+                "configurationDialog": {
+                    "height": 300,
+                    "width": 300
+                },
+                "key": "dummy-portfolio-report",
+                "name": {
+                    "en-US": "Dummy portfolio report",
+                    "sv-SE": "Dummy-portföljrapport"
+                },
+                "description": {
+                    "en-US": "A dummy portfolio report for educational purposes",
+                    "sv-SE": "En dummy-portföljrapport i utbildningssyfte"
+                }
+            }
+        ],
+        "imports": [],
+        "events": [
+            {
+                "eventKey": "HourlyImportExport",
+                "relativeTriggerUrl": "import/slow",
+                "key": "slow-dummy-currency-import-event",
+                "name": {
+                    "en-US": "Slow dummy currency import",
+                    "sv-SE": "Långsam dummy-valutaimport"
+                },
+                "description": {
+                    "en-US": "A slow currency import",
+                    "sv-SE": "En långsam valutaimport"
+                }
+            },
+            {
+                "eventKey": "HourlyImportExport",
+                "relativeTriggerUrl": "import/fast",
+                "key": "fast-dummy-currency-import-event",
+                "name": {
+                    "en-US": "Fast dummy currency import",
+                    "sv-SE": "Snabb dummy-valutaimport"
+                },
+                "description": {
+                    "en-US": "A fast currency import",
+                    "sv-SE": "En snabb valutaimport"
+                }
+            }
+        ],
+        "tasks": [
+            {
+                "relativeTriggerUrl": "import/fast",
+                "key": "fast-dummy-currency-import",
+                "name": {
+                    "en-US": "Fast dummy currency import",
+                    "sv-SE": "Snabb dummy-valutaimport"
+                },
+                "description": {
+                    "en-US": "A fast currency import",
+                    "sv-SE": "En snabb valutaimport"
+                }
+            },
+            {
+                "relativeTriggerUrl": "import/slow",
+                "key": "slow-dummy-currency-import",
+                "name": {
+                    "en-US": "Slow dummy currency import",
+                    "sv-SE": "Långsam dummy-valutaimport"
+                },
+                "description": {
+                    "en-US": "A slow currency import",
+                    "sv-SE": "En långsam valutaimport"
+                }
+            }
+        ]
+    },
+    "minimumRequiredAnturaProjectsVersion": {
+        "major": 1,
+        "minor": 0
+    }
+}
