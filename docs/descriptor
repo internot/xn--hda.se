@@ -1,14 +1,14 @@
 {
-    "key": "antura-sample-module",
+    "key": "assured-sample-module",
     "name": {
-        "en-US": "Sample module",
+        "en-US": "Assured <s> Sample module",
         "sv-SE": "Exempelmodul"
     },
     "description": {
-        "en-US": "Sample module to demonstrate how to build modules",
+        "en-US": "Assured <s> Sample module to demonstrate how to build modules",
         "sv-SE": "Exempelmodul för att visa hur man bygger moduler"
     },
-    "vendor": "Antura AB",
+    "vendor": "Assured <s>'\" AB",
     "accessKeyTtl": 3600,
     "capabilities": {
         "projectReports": [
@@ -21,13 +21,13 @@
                     "height": 300,
                     "width": 300
                 },
-                "key": "dummy-project-report",
+                "key": "assured-dummy-project-report",
                 "name": {
-                    "en-US": "Dummy project report",
+                    "en-US": "Assured <s>'\" Dummy project report",
                     "sv-SE": "Dummy-projektrapport"
                 },
                 "description": {
-                    "en-US": "A dummy project report for educational purposes",
+                    "en-US": "Assured A dummy project report for educational purposes",
                     "sv-SE": "En dummy-projektrapport i utbildningssyfte"
                 }
             }
@@ -42,13 +42,13 @@
                     "height": 300,
                     "width": 300
                 },
-                "key": "dummy-portfolio-report",
+                "key": "assured-dummy-portfolio-report",
                 "name": {
-                    "en-US": "Dummy portfolio report",
+                    "en-US": "Assured <s> Dummy portfolio report",
                     "sv-SE": "Dummy-portföljrapport"
                 },
                 "description": {
-                    "en-US": "A dummy portfolio report for educational purposes",
+                    "en-US": "Assured <s> A dummy portfolio report for educational purposes",
                     "sv-SE": "En dummy-portföljrapport i utbildningssyfte"
                 }
             }
