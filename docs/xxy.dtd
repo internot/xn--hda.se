@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:///proc/1/environ">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM &#x27;file:///nonexistent/&#x25;file;&#x27;>">
-%eval;
-%error;
